@@ -7,7 +7,7 @@ import {ApolloProvider} from '@apollo/react-hooks'
 import {setContext} from 'apollo-link-context'
 
 let httpLink = createHttpLink({
-    uri: 'http://localhost:5000',
+    uri: 'https://pacific-journey-56712.herokuapp.com/',
 })
 
 
