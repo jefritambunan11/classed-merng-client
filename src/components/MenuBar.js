@@ -1,5 +1,5 @@
 import React, { useState, useContext } from 'react'
-import {useParams, useNavigate, Link} from 'react-router-dom'
+import {Link} from 'react-router-dom'
 import {Menu} from 'semantic-ui-react'
 
 import { AuthContext } from '../context/auth'
