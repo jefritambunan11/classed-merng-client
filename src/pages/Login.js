@@ -26,7 +26,8 @@ export default function Login(props) {
                 }
             }
             ) {
-            
+            console.log("_user_data_")
+            console.log(_user_data_)
             context.login(_user_data_)
             props.history.push('/')
         },
